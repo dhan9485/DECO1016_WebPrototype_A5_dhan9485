@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- page info --> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Donations - Australian Red Cross</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="LOGO.png">
+</head>
+ 
+<body>
+
+<!-- Header -->
+  <header>
+    <a href="index.html"><img src="LOGO.png" alt="Logo"></a>
+    <h1><a href="index.html">The Australian Red Cross</a></h1>
+  </header>
+
+<!-- Sticky red nav bar with black dropdown --> 
+  <nav>
+    <ul>
+      <li><a href="#blood"><strong>Donate Blood</strong></a></li>
+      <li><a href="#money"><strong>Donate Money</strong></a></li>
+      <li><a href="#shop"><strong>Shop with us</strong></a></li>
+      <li><dropdown>
+        <dropbtn><strong>About the Red Cross</strong></button>
+        <dropdown-content>
+          <a href="about.html#who">Who we are</a>
+          <a href="about.html#how">How we help</a>
+          <a href="about.html#get">Get involved</a>
+        </dropdown-content>
+      </dropdown></li>
+    </ul>
+  </nav>
+  
+<!-- Main content --> 
+  <div class = "main">
+    <div class = "g">
+      <figure>
+        <img src="donation.jpg" alt="donation"/>
+        <figcaption>Group of students with Australian Red Cross donation boxes<figcaption>
+      </figure>
+    </div>
+    <div class = "g">
+      <h1><strong>Donate.</strong></h1><br>
+      <h2><strong>Be a true hero.</strong></h2><br>
+      <p>Since 1914, the Australian Red Cross has been working towards the vision of human dignity, peace, safety and wellbeing for all. From disaster zones to your home neighborhood, we try to be with victims and people who are socially vulnerable, to ensure every person has access to humanitarian aid whenever and wherever he needs it.<br><br>But these are not achievable without your help. The intense bushfires last summer destroyed nearly three thousand homes, and it is estimated to cost more than 103 billion dollars to deal with its aftermath. More recently, Lifeblood donor centers, which is a part of our blood donation program, are calling for help as the current blood supply will run out in a couple of weeks due to the increasing demand caused by the novel Coronavirus outbreak.<br><br>Want to help? Try donating your blood and spare change, or just drop by our store to pick up some fancy clothes. It might look small and worthless, but your little gesture will make you a real hero of someone out there.</p> 
+    </div>
+    <section id = "blood">
+      <div class = "g">
+        <h2><strong>Blood</strong></h2><br>
+        <p>One of the easiest and most helpful ways of donation is giving away blood. A single blood donation can save up to three lives, and over 500,000 people voluntarily gave blood, plasma or platelets between 2018 and 19. Nearly one million blood products were delivered to hospitals and healthcare providers, and just over 1 million and 400 thousand individual blood donations were made during that period.</p><br>
+        <p>If you are aged between 18 to 76, and weigh over 50 kilograms, you may be able to give blood. There are 96 blood donor centers including mobile centers in Australia, and you can book a meeting with our Lifeblood team to make a donation. Use the form below to find a center near you, and see if they're avaliable. To find out more about the Lifeblood program, visit the <a href = "https://www.donateblood.com.au/">Australian Red Cross Lifeblood website</a>.</p><br>
+        <form>
+          <input type="text" id="fname" name="fname" value="Enter location" style = "height: 20px;">
+          <!--button code reference: https://www.quora.com/How-do-you-edit-a-button-size-in-HTML-->
+          <button style="height: 20px; border-style: none; background-color: #CA2B1E; color: white;">Search</button>
+        </form><br>
+      </div>
+    </section>
+    <div class = "g">
+      <figure>
+        <img src="center.jpg" alt="blcenter">
+        <figcaption>Workers at a local Lifeblood donor center</figcaption>
+      </figure> 
+    </div>
+    <section id = "money">
+      <div class = "g">
+        <h2><strong>Money</strong></h2><br>
+        <p>The Australian Red Cross has a reputation for providing the right care and aid for victims of natural disasters. Last year, due to record-breaking bushfires thousands of people lost their homes, and millions more were affected by the devastating flames. After the fire, we were there to provide shelter for those left homeless, and immediately started relief efforts in the disaster-struck areas. Numerous private and official fundraisers has been set up, and we started a program to financially support those severely effected by the catastrophe.</p><br><p>By April 15, 2020 we have raised about 200 million dollars in donations, and have already spent 73 million 3 months into our grants and recovery program. With crystal-clear approvement procedures, we make sure than every cent goes to those desperate in need. You can make a quick single donation by filling out the form below, or for regular donation plans contact us at 1800-RED-CROSS (733 276) or visit the <a href = """https://www.redcross.org.au/support-us/donate-funds">ARC Ways to donate webpage</a>.</p><br>
+        <form>
+          <input type="text" id="fname" name="fname" value="Your name">
+          <input type="text" id="fname" name="fname" value="Email">
+          <input type="text" id="fname" name="fname" value="Donation amount (AUD)">
+          <select id="select" name="select" data-form-required>
+            <option disabled label="Anonymous donation?" selected value=""/>
+            <option label="Yes" value="Yes"/>
+            <option label="No" value="No"/>
+          </select>
+          <!--button code reference: https://www.quora.com/How-do-you-edit-a-button-size-in-HTML-->
+          <button style="height: 20px; border-style: none; background-color: #CA2B1E; color: white;">Proceed to payment</button>
+        </form><br>
+      </div>
+    </section>
+    <div class = "g">
+      <figure>
+        <img src="fundraiser.jpeg" alt="fundraiser">
+        <figcaption>Example of a private ARC fundraiser by Jesse M, JAN 2020, gofundme.com</figcaption>
+      </figure>
+    </div>
+    <section id = "shop">
+      <div class = "g">
+        <h2><strong>Red Cross shops</strong></h2><br>
+        <p>For those who have a great taste of fashion, or want to give something meaningful to a loved one, we have both online and offline shops selling pre-loved clothing, gifts, homeware and official goods. Every purchase supports Australian Red Cross teams helping people as they overcome hardship, crisis and disaster here at home and across the Asia Pacific.</p><br>
+        <p>There are a total of 178 offline shops open all across Australia. Use the form below to search for shops located in your area, and find out about business hours and what they have in stock. You can also visit our online store at <a href = "https://shop.redcross.org.au/">shop.redcross.org.au</a> for a wider range of select gifts, cards, new or pre-loved fashion items and homeware. Shop generously today and help humankind shine tomorrow.</p><br>
+        <form>
+          <input type="text" id="fname" name="fname" value="Enter location" style = "height: 20px;">
+          <!--button code reference: https://www.quora.com/How-do-you-edit-a-button-size-in-HTML-->
+          <button style="height: 20px; border-style: none; background-color: #CA2B1E; color: white;">Search</button>
+        </form><br>
+      </div>
+    </section>
+    <div class = "g">
+      <figure>
+        <img src="store.jpg" alt="store">
+        <figcaption>Red cross has offline shops open all across the country<figcaption
+      </figure>
+    </div>
+  </div>
+</html>
